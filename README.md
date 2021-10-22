@@ -1,5 +1,5 @@
 # NLW Heat by Rocketseat 🚀
-## Stage 02 : Backend
+## Stage 02 : Frontend
 
 #
 
