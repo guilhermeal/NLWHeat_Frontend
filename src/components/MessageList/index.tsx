@@ -7,6 +7,7 @@ import logoImp from "../../assets/logo.svg";
 type Message = {
   id: string;
   text: string;
+  created_at: Date;
   user: {
     name: string;
     avatar_url: string;
@@ -43,6 +44,7 @@ export function MessageList() {
                   <img src={message.user.avatar_url} alt={message.user.name} />
                 </div>
                 <span>{message.user.name}</span>
+                <span>{message.created_at}</span>
               </div>
             </li>
           );
